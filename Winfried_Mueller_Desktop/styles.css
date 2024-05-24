@@ -1,47 +1,97 @@
-* {margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    font-size: 1.5vw;
+/*Stil für Bilder*/
+img {
+    width: 150px;
+    height: auto;
 }
-    
-ul{
-        list-style-type: none;
-    }
 
-    header {
-        margin: 18px;
-        font-family: Arial, sans-serif;
-        background-color: whitesmoke;
-    }
 
-    main {
-        margin: 18px;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 10px;
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-    }
-    
-    footer {
-        margin: 18px;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 10px;
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-    }
+/* Basisstil für den Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-    .grid-list {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 10px;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .grid-list li {
-        padding: 10px;
-        text-align: center;
-    }
+/* Stil für den Header */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    display: inline;
+}
+
+/* Stil für den Footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    display: inline;
+}
+
+/* Stil für Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Stil für die main section */
+main {
+    padding: 20px;
+}
+
+/* Stil für die section */
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Stil für das Hauptüberschrift */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Stil für die Unterüberschrift */
+h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+h3 {
+    font-size: 16px;
+    color: #32405D;
+    margin-bottom: 4px;
+}
+
+p {
+    margin: 0;
+}
+
+.Bold {
+    font-weight: 600;
+}
