@@ -1,7 +1,8 @@
 /*Stil für Bilder*/
 img {
-    width: 150px;
+    width: 100%;
     height: auto;
+    margin-top: 20px;
 }
 
 
@@ -66,7 +67,6 @@ section {
     padding: 20px;
     background-color: #ffffff;
     margin: 20px 0;
-    border: 1px solid #ddd;
     border-radius: 4px;
 }
 
@@ -92,6 +92,37 @@ p {
     margin: 0;
 }
 
-.Bold {
+.bold {
     font-weight: 600;
+}
+
+.portrait {
+    margin: 0;
+    width: 150px;
+    height: auto;
+}
+
+.portrait-layout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.spalte-1 {
+    grid-column: 2 / span 5;
+}
+
+.portrait-layout p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.inhalt {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.anfang {
+    margin-left: 20%;
+    padding: 14px;
 }
