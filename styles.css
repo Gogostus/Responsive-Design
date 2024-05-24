@@ -12,7 +12,7 @@ header {
 }
 
 header li { display: inline-block;
-margin-right: 8px;}
+}
 
 
 main {
@@ -29,8 +29,37 @@ ul {
     list-style-type: none;
 }
 
+section {
+    height: 100%;
+    padding: 16px;
+}
 
-.HeaderList {
+main {
+    height: 100vh;
+    background: lightcyan;
+}
+
+.gallery  {
+    background: darkcyan;
+    height: 50%;
+}
+
+.tile {
+    height: 300px;
+    width: 300px;
+    background: yellow;
+    
+}
+
+.header-navigation {
+
+}
+
+.header-navigation-list {
+
+}
+
+.headerList {
     font-weight: 600;
     color: whitesmoke;
 
