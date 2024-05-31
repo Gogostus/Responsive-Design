@@ -59,12 +59,12 @@ a {
 
 /* Stil für die main section */
 main {
-    padding: 20px;
+    padding: 0px;
 }
 
 /* Stil für die section */
 section {
-    padding: 20px;
+    padding: 0px;
     background-color: #ffffff;
     margin: 20px 0;
     border-radius: 4px;
@@ -79,6 +79,7 @@ h1 {
 
 /* Stil für die Unterüberschriften */
 h2 {
+    padding-top: 20px;
     font-size: 20px;
     color: #666;
 }
@@ -127,7 +128,7 @@ p {
 
 .anfang {
     margin-left: 20%;
-    padding: 14px;
+    
 }
 
 /* Stil für Werke */
@@ -135,8 +136,7 @@ p {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 8px;
-    margin-bottom: 12px;
-
+    margin-bottom: 64px;
 }
 
 .text {
