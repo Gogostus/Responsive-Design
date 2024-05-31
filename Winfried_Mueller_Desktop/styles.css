@@ -129,3 +129,41 @@ p {
     margin-left: 20%;
     padding: 14px;
 }
+
+/* Stil für Werke */
+.buch {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+
+}
+
+.text {
+    border-bottom: 2px solid black;
+}
+
+.buchlinks img {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 200px;
+    object-fit: cover;
+}
+
+.buchlinks .text {
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+
+.buchrechts img{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    height: 200px;
+    object-fit: cover;
+}
+
+.buchrechts .text {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    text-align: right;
+}
