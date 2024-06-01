@@ -65,8 +65,11 @@ footer li {
 a {
     text-decoration: none;
     color: #32405D;
-    font-weight: bold;
-}
+    font-weight: bold;}
+
+a:hover {
+        color: #499ce0;
+    }
 
 /* Stil für die main section */
 main {
