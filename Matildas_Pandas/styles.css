@@ -6,16 +6,28 @@
 /*Schriftart*/
 @font-face {
     font-family: Mada;
-    src: url('/Winfried_Mueller_Desktop/Fonts/Mohave-VariableFont_wght.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Regular.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Bold.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Italic.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Light.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Medium.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+body {
+    margin: 0;
+    font-family: Mada, Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
 /*Stil für Bilder*/
 img {
+    position: relative;
     width: 100%;
     height: auto;
-    margin-top: 20px;
 }
 
 .icon {
@@ -26,19 +38,31 @@ img {
 /*Stil für Header*/
 header {
     background-color: black;
-    height: 120px;
+    height: 80px;
     position: sticky;
     top: 0;
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 40%;
     padding-right: 10%;
 
 }
 
+/*Stil für Überschriften*/ 
 h1 {
     color: white;
     text-align: center;
     padding-top: 50px;
+    font-weight: light;
 }
+
+h2 {
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
