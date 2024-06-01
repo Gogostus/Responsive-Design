@@ -1,3 +1,11 @@
+/*Schriftart*/
+@font-face {
+    font-family: Mohave;
+    src: url('/Winfried_Mueller_Desktop/Fonts/Mohave-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*Stil für Bilder*/
 img {
     width: 100%;
@@ -9,13 +17,15 @@ img {
 /* Basisstil für den Body */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Mohave, Arial, sans-serif;
 }
 
 /* Stil für den Header */
 header {
     background-color: #f8f9fa;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
 }
 
 header ul {
@@ -54,7 +64,8 @@ footer li {
 /* Stil für Links */
 a {
     text-decoration: none;
-    color: #007bff;
+    color: #32405D;
+    font-weight: bold;
 }
 
 /* Stil für die main section */
@@ -73,21 +84,22 @@ section {
 /* Stil für das Hauptüberschrift */
 h1 {
     font-family: cursive;
-    font-size: 24px;
-    color: #333;
+    font-size: 40px;
+    color: #32405D;
 }
 
 /* Stil für die Unterüberschriften */
 h2 {
     padding-top: 20px;
-    font-size: 20px;
-    color: #666;
+    font-size: 40px;
+    color: #32405D;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 24px;
     color: #32405D;
     margin-bottom: 4px;
+    font-weight: bolder;
 }
 
 /* Stil für Text */
@@ -102,7 +114,7 @@ p {
 /* Stil für Portrait */
 .portrait {
     margin: 0;
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 
