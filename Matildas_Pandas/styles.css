@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Schriftart*/
+@font-face {
+    font-family: Mada;
+    src: url('/Winfried_Mueller_Desktop/Fonts/Mohave-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Stil für Bilder*/
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*Stil für Header*/
+header {
+    background-color: black;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
