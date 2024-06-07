@@ -23,9 +23,11 @@ body {
 img {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 400px;
     margin-top: 18px;
     margin-bottom: 18px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .icon {
@@ -90,4 +92,28 @@ h2 {
     padding-right: 20%;
     padding-bottom: 20px;
     font-variant: light;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: 0;
+}
+
+.linke-spalte {
+    grid-column: 1 / 7; /* Die linke Spalte nimmt die ersten 6 Spalten des Grids ein */
+}
+
+.rechte-spalte {
+    grid-column: 7 / 13; /* Die rechte Spalte nimmt die letzten 6 Spalten des Grids ein */
+}
+
+.img-grid {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    object-fit: cover;
+    object-position: center;
 }

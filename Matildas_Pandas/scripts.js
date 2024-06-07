@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
                 isWhite = true;
             }
             
-        });    } // Add the closing curly brace here
+        });    } 
 });
