@@ -47,6 +47,7 @@ header {
     padding-right: 10%;
     position: sticky;
     padding-bottom: 18px;
+    z-index: 1000;
 
 }
 
