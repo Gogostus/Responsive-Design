@@ -6,12 +6,8 @@
 /*Schriftart*/
 @font-face {
     font-family: Mada;
-    src: url('/Matildas_Pandas/Fonts/Mada-Regular.ttf') format('truetype');
-    src: url('/Matildas_Pandas/Fonts/Mada-Bold.ttf') format('truetype');
-    src: url('/Matildas_Pandas/Fonts/Mada-Italic.ttf') format('truetype');
-    src: url('/Matildas_Pandas/Fonts/Mada-Light.ttf') format('truetype');
-    src: url('/Matildas_Pandas/Fonts/Mada-Medium.ttf') format('truetype');
-    src: url('/Matildas_Pandas/Fonts/Mada-Black.ttf') format('truetype');
+    src: url('/Matildas_Pandas/Fonts/Mada-VariableFont_wght.ttf') format('truetype');
+
     font-weight: normal;
     font-style: normal;
 }
@@ -28,6 +24,8 @@ img {
     position: relative;
     width: 100%;
     height: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .icon {
@@ -47,6 +45,8 @@ header {
     align-items: center;
     padding-left: 40%;
     padding-right: 10%;
+    position: sticky;
+    padding-bottom: 18px;
 
 }
 
@@ -62,7 +62,31 @@ h2 {
     color: white;
     text-align: left;
     padding-top: 50px;
-    font-weight: bold;
     font-size: 28px;
+    font-variant: bold;
+    font-weight: bolder;
 }
 
+.systematik li{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  display: flex;
+  justify-content: space-between;
+}
+
+.systematik li{
+    list-style-type: none;
+    margin-top: 1em;
+    margin: bottom 1em;
+}
+
+.systematik-inhalt {
+    grid-column: 4 / 7; 
+}
+
+.fliesstext {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    font-variant: light;
+}
