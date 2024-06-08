@@ -2,10 +2,50 @@
 <html>
 <head>
     <title>Verlinkungsseite</title>
+    <style>
+        body {
+            background-color: black; /* macht den Hintergrund schwarz */
+            color: white; /* macht die Schriftfarbe weiß */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        }
+        h1 {
+            font-size: 40px; /* macht den Text größer */
+            font-weight: bold; /* macht den Text fett */
+            color: white; /* macht die Schriftfarbe weiß */
+            text-align: center; /* zentriert den Text */
+            margin-bottom: 100px; /* fügt unten Abstand hinzu */
+            padding-bottom: 10px; /* fügt innen Abstand hinzu */
+            border-bottom: 2px solid red; /* fügt einen roten Rand hinzu */
+        }
+        .button-container {
+            display: flex; /* aktiviert Flexbox */
+            flex-direction: column; /* ordnet die Buttons vertikal an */
+            align-items: center; /* zentriert die Buttons horizontal */
+            justify-content: center; /* zentriert die Buttons vertikal */
+            height: 100vh; /* macht den Container so hoch wie das Fenster */
+        }
+        button {
+            width: 50%; /* macht die Buttons halb so breit wie das Fenster */
+            font-size: 40px; /* macht den Text größer */
+            font-weight: bold; /* macht den Text fett */
+            padding: 24px; /* fügt innen Abstand hinzu */
+            margin: 10px; /* fügt außen Abstand hinzu */
+            border: 2px solid red; /* fügt einen roten Rand hinzu */
+            color: white; /* macht die Schriftfarbe weiß */
+            background-color: black; /* macht den Hintergrund der Buttons schwarz */
+            cursor: pointer; /* ändert den Cursor zu einem Zeiger */
+        }
+        button:hover {
+            background-color: rgb(245, 216, 216); /* ändert den Hintergrund der Buttons zu Rot beim Überfahren mit der Maus */
+            color: black; /* ändert die Schriftfarbe zu Schwarz beim Überfahren mit der Maus */
+        }
+    </style>
 </head>
 <body>
-    <button onclick="window.location.href='./Demoprojekt/index.html'">Demoprojekt</button>
-    <button onclick="window.location.href='./Winfried_Mueller_Desktop/index.html'">Winfried Müller</button>
-    <button onclick="window.location.href='./Matildas_Pandas/index.html'">Matildas Pandas</button>
+    <div class="button-container">
+        <h1>Responsive Design</h1>
+        <button onclick="window.location.href='./Demoprojekt/index.html'">Demoprojekt</button>
+        <button onclick="window.location.href='./Winfried_Mueller_Desktop/index.html'">Winfried Müller</button>
+        <button onclick="window.location.href='./Matildas_Pandas/index.html'">Matildas Pandas</button>
+    </div>
 </body>
 </html>
