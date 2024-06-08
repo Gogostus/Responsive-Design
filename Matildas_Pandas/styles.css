@@ -23,11 +23,17 @@ body {
 img {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: auto;
     margin-top: 18px;
     margin-bottom: 18px;
     object-fit: cover;
     object-position: center;
+}
+
+.special-img
+{
+    height: 40vh;
+    max-height: 400px;
 }
 
 .icon {
@@ -65,7 +71,7 @@ h2 {
     color: white;
     text-align: left;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 42px;
     font-variant: bold;
     font-weight: bolder;
 }
@@ -96,19 +102,22 @@ h2 {
 
 .section-grid {
     display: grid;
+    gap: 8px;
     grid-template-columns: repeat(12, 1fr);
     margin-left: 0;
+    margin-left: 4%;
 }
 
 .linke-spalte {
-    grid-column: 1 / 7; /* Die linke Spalte nimmt die ersten 6 Spalten des Grids ein */
+    grid-column: 1 / 6; /* Die linke Spalte nimmt die ersten 6 Spalten des Grids ein */
 }
 
 .rechte-spalte {
     grid-column: 7 / 13; /* Die rechte Spalte nimmt die letzten 6 Spalten des Grids ein */
+grid-row: 1/3;
 }
 
-.img-grid {
+.img-grid  {
     position: relative;
     width: 100%;
     height: auto;
@@ -116,4 +125,9 @@ h2 {
     margin-bottom: 18px;
     object-fit: cover;
     object-position: center;
+}
+
+.tabelle-links {
+    grid-column: 1 / 6;
+    align-self: end;
 }
