@@ -41,6 +41,11 @@ img {
     height: 30px;
 }
 
+.darkmode {
+    width: 30px;
+    height: 30px;
+}
+
 /*Stil für Header*/
 header {
     background-color: black;
@@ -51,7 +56,7 @@ header {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    padding-left: 40%;
+    padding-left: 10%;
     padding-right: 10%;
     position: sticky;
     padding-bottom: 18px;
