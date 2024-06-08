@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var iconElements = document.getElementsByClassName("darkmode");
     var h2Elements = document.getElementsByTagName("h2");
+    var pElements = document.getElementsByTagName("p");
     var isWhite = false;
     for (var i = 0; i < iconElements.length; i++) {
         iconElements[i].addEventListener("click", function() {
@@ -10,12 +11,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 for (var j = 0; j < h2Elements.length; j++) {
                     h2Elements[j].style.color = "white";
                 }
+                for (var j = 0; j < pElements.length; j++) {
+                    pElements[j].style.color = "white";
+                }
                 isWhite = false;
             } else {
                 document.body.style.backgroundColor = "white";
                 document.body.style.color = "black";
                 for (var j = 0; j < h2Elements.length; j++) {
                     h2Elements[j].style.color = "black";
+                }
+                for (var j = 0; j < pElements.length; j++) {
+                    pElements[j].style.color = "black";
                 }
                 isWhite = true;
             }
